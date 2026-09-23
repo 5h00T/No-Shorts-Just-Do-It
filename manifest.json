@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "No Shorts, Just Do It",
+    "version": "1.0.0",
+    "description": "YouTube Shortsを開くとJust Do It動画へリダイレクトします。",
+    "permissions": [
+        "webNavigation"
+    ],
+    "host_permissions": [
+        "https://www.youtube.com/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
